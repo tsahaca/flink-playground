@@ -1,4 +1,4 @@
-# flink-tutorials
+# flink-playground
 
 Collections of Flink Demo Applications and Utils
 
