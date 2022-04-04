@@ -1,0 +1,16 @@
+{
+  "name": "datagen-users",
+  "config": {
+    "connector.class": "io.confluent.kafka.connect.datagen.DatagenConnector",
+    "value.converter.schema.registry.url": "http://localhost:8081",
+    "quickstart": "users",
+    "tasks.max": "1",
+    "value.converter.schemas.enable": "false",
+    "name": "datagen-users",
+    "kafka.topic": "users",
+    "value.converter": "io.confluent.connect.avro.AvroConverter",
+    "max.interval": "5000",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "iterations": "5"
+  }
+}
